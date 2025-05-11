@@ -25,7 +25,7 @@ This is a **React-based customization page** for a Print-On-Demand (POD) t-shirt
   Clean UX and fully responsive layout across all screen sizes.
 
 - **Vite + Cloudflare Deployment**  
-  Lightning-fast build & deploy via **Vite** and **Cloudflare Pages**.
+  Lightning-fast build & deployed via **Vite** and **Cloudflare Pages**.
 
 ---
 
@@ -48,7 +48,7 @@ git clone https://gitlab.com/pratibha-singh13/POD-T-Shirt-Customizer-App.git
 cd POD-T-Shirt-Customizer-App
 
 
-### 2.Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 
