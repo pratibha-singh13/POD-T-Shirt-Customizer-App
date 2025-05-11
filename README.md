@@ -1,6 +1,8 @@
 # 👕 T-Shirt Customization Page for POD Store
 
-This is a **React-based customization page** for a Print-On-Demand (POD) t-shirt store. Built with Vite, TailwindCSS, and React Hook Form, this single-page app offers users an intuitive way to personalize t-shirts by uploading images, entering custom text, and selecting body preferences.
+This is a **React-based customization page** for a Print-On-Demand (POD) t-shirt store. Built with **Vite**, **TailwindCSS**, and **React Hook Form**, this single-page app offers users an intuitive way to personalize t-shirts by uploading images, entering custom text, and selecting body preferences.
+
+---
 
 ## ✨ Features
 
@@ -8,22 +10,24 @@ This is a **React-based customization page** for a Print-On-Demand (POD) t-shirt
   Replace the default width selector with inputs for:
   - Height (default: 180cm)
   - Weight (default: 80kg)
-  - Build (lean, regular, athletic, big)
+  - Build type: Lean, Regular, Athletic, Big
 
 - **Image Upload & Preview**  
-  Upload an image via drag-and-drop or file picker. Displays the uploaded design alongside a scaled-down preview.
+  Upload an image via drag-and-drop or file picker. The design is displayed with a scaled-down preview on the t-shirt.
 
 - **Custom Text Input**  
   Add up to **3 lines** of custom text to be printed on the t-shirt.
 
 - **Switchable UI Styles**  
-  Use **Alt + Q** to toggle between **3 distinct UI styles** (color, layout, and font variations) — implemented via `react-hook-form`.
+  Press **Alt + Q** to toggle between **3 UI styles** (color, layout, font) — implemented via `react-hook-form`.
 
 - **Responsive Design**  
-  Fully responsive layout with clean UX across all screen sizes.
+  Clean UX and fully responsive layout across all screen sizes.
 
 - **Vite + Cloudflare Deployment**  
-  Blazing fast development and build process with **Vite**, deployed via **Cloudflare Pages**.
+  Lightning-fast build & deploy via **Vite** and **Cloudflare Pages**.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -33,10 +37,21 @@ This is a **React-based customization page** for a Print-On-Demand (POD) t-shirt
 - [Vite](https://vitejs.dev/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 
-## 🚀 Getting Started
+---
+
+## 🚀 Getting Started (Local Development)
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pod-tshirt-customizer.git
-cd pod-tshirt-customizer
+git clone https://gitlab.com/pratibha-singh13/POD-T-Shirt-Customizer-App.git
+cd POD-T-Shirt-Customizer-App
+
+
+### 2.Install Dependencies
+```bash
+npm install
+
+### 3. Start the Development Server
+```bash
+npm run dev
